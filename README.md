@@ -9,7 +9,7 @@ GOAL
 Today you are going to build a coin flip simulator that does two things. First, **you are going to build a simulator that tells you how long it will take to get a certain number of tails from a coin flip**. E.g. It took 105 flips to get 50 instances of tails.
 ![Exemplar part 1](https://media.giphy.com/media/lMBwBnupOq0luDMwhn/giphy.gif)
 
-Second, **you are going to build a simulator that tells you how long it will take to get a certain number of tails in a *row***. E.g. it took 24 flips to get tails 3 times in a row.
+Second, **you are going to build a simulator that tells you how long it will take to get a certain number of tails in a *row***. E.g. it took 24 flips to get tails 3 times in a row.  
 ![Exemplar part 2](https://media.giphy.com/media/Qa5F17uDi7LFTyHiMy/giphy.gif)
 
 TASK
