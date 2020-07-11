@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <!-- import Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body id="body">
+    <h1>COIN FLIP SIMULATOR</h1>
+    <p>
+      This simulator runs how long it takes to get to a cerain number of tails in a coin flip. If you type in 100, it will return a the number of coin flips needed to get 100 tails from a coin flip.
+    </p>
+    <div class = "row">
+      <div class = "col-9">
+        <input id ="tailInput" class="input-sm" placeholder="Flip unit you get how many tails?" />
+      </div>
+      <div class="col-3">
+        <button id = "submit" type="button" class="btn btn-primary">
+          Run Simulator
+        </button>
+      </div>
+    </div>
+    <div id="coinOutput">
+      <!--   Print the results of the simulator here     -->
+      
+    </div>
+    <p>
+      The second simulator checks how long it takes to get a certain number of tail flips in a row. If you type 10, the simulator will tell you how long it took to get 10 tail flips in a row.
+    </p>
+    <div class = "row">
+      <div class = "col-9">
+        <input id ="streakInput" class="input-sm" placeholder="Length of tails streak?" />
+      </div>
+      <div class="col-3">
+        <button id = "streakSubmit" type="button" class="btn btn-primary">
+          Run Simulator
+        </button>
+      </div>
+    </div>
+    <div id="streakOutput">
+      <!--   Print the results of the simulator here     -->
+      
+    </div>
+  </body>
+</html>
