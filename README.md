@@ -76,7 +76,7 @@ ELSE
   
   
 DISPLAY (current flip)
-DISPLAY (headsCount)
+DISPLAY (tailsCount)
 ```
 3. Refactor the code so that it runs for ***any*** userInput when they click the first "Run Simulator" buttons
 4. Update the `innerHTML` of the div with a class of streakOutput with the final results of the simulator.
