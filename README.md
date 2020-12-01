@@ -29,9 +29,8 @@ Math.floor(Math.random() * 10)
 For today's lab you will need to use `while` loops in addition to concepts you have previously learned (`Math.random()`, `querySelector()`, `addEventListener()`, etc.):
 
 **PART 1: COIN FLIP SIMULATOR**  
-1. Select for the HTML elements that you will need using `querySelector()`. You can ignore the second input range for now as we will use this in the second part of the lab.
-2. The simplest way to simulate a coinflip is to randomly generate a number of 0 or 1. 0 can be heads and 1 can be tails. Print a random number of 0 or 1 to the console every time you refresh the page.
-3. Construct a basic while loop that will count the number of flips it takes to get to 10 instances of tails. 
+1. The simplest way to simulate a coinflip is to randomly generate a number of 0 or 1. 0 can be heads and 1 can be tails. Print a random number of 0 or 1 to the console every time you refresh the page.
+2. Construct a basic while loop that will count the number of flips it takes to get to 10 instances of tails. 
 ```javascript
 var tails = 0
 var count = 0
@@ -54,12 +53,12 @@ console.log(tails)
 //This should print out the number of flips it took to get 10 tails.
 console.log(count)
 ```
+3. Select for the HTML elements that you will need using `querySelector()`. You can ignore the second input range for now as we will use this in the second part of the lab.
 4. Refactor the code so that it runs for ***any*** userInput when they click the first "Run Simulator" buttons
 5. Update the `innerHTML` of the div with a class of coinOutput with the final results of the simulator.
 
 **PART 2: COIN STREAK SIMULATOR**  
 The code you generated in part 1 can be quite informative to this portion! You are now going to get a user input and count for the number of times it takes to get that number of tails ***in a row***.
-1. Select for the HTML elements that you will need using `querySelector()`. 
 2. Construct a while loop that does two things. First, it should update the current flip using `Math.random()` and `Math.floor()`. Next, it should determine if the coin flip is tails. The unique part here is that tailsCount should return to 0 if the flip is **NOT** tails. An example of some pseudocode can be seen below. Get this to print to the console. **NOTE: You should check to see how long it takes to get a small number of tails in a row to avoid crashing the program.**
 ```
 // Ouside while loop
@@ -78,5 +77,6 @@ ELSE
 DISPLAY (current flip)
 DISPLAY (tailsCount)
 ```
+2. Select for the HTML elements that you will need using `querySelector()`. 
 3. Refactor the code so that it runs for ***any*** userInput when they click the first "Run Simulator" buttons
 4. Update the `innerHTML` of the div with a class of streakOutput with the final results of the simulator.
