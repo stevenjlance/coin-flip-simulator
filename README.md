@@ -58,8 +58,8 @@ console.log(count)
 5. Update the `innerHTML` of the div with a class of coinOutput with the final results of the simulator.
 
 **PART 2: COIN STREAK SIMULATOR**  
-The code you generated in part 1 can be quite informative to this portion! You are now going to get a user input and count for the number of times it takes to get that number of tails ***in a row***.
-2. Construct a while loop that does two things. First, it should update the current flip using `Math.random()` and `Math.floor()`. Next, it should determine if the coin flip is tails. The unique part here is that tailsCount should return to 0 if the flip is **NOT** tails. An example of some pseudocode can be seen below. Get this to print to the console. **NOTE: You should check to see how long it takes to get a small number of tails in a row to avoid crashing the program.**
+The code you generated in part 1 can be quite informative to this portion! You are now going to get a user input and count for the number of times it takes to get that number of tails ***in a row***.  
+1. Construct a while loop that does two things. First, it should update the current flip using `Math.random()` and `Math.floor()`. Next, it should determine if the coin flip is tails. The unique part here is that tailsCount should return to 0 if the flip is **NOT** tails. An example of some pseudocode can be seen below. Get this to print to the console. **NOTE: You should check to see how long it takes to get a small number of tails in a row to avoid crashing the program.**
 ```
 // Ouside while loop
 tailsStreak <-- 0
